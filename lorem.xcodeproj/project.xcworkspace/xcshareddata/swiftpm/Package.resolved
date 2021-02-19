@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoremSwiftum",
+        "repositoryURL": "https://github.com/lukaskubanek/LoremSwiftum.git",
+        "state": {
+          "branch": null,
+          "revision": "eef89bf8b9937462f9c493789609897763b383e2",
+          "version": "2.2.1"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "9564d61b08a5335ae0a36f789a7d71493eacadfc",
+          "version": "0.3.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9376E22825E0294200A8D415 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376E22725E0294200A8D415 /* main.swift */; };
+		9376E23125E0296F00A8D415 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 9376E23025E0296F00A8D415 /* ArgumentParser */; };
+		9376E23525E0298500A8D415 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 9376E23425E0298500A8D415 /* LoremSwiftum */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		9376E22425E0294200A8D415 /* lorem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lorem; sourceTree = BUILT_PRODUCTS_DIR; };
 		9376E22725E0294200A8D415 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9376E23725E04E1D00A8D415 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9376E23A25E0535700A8D415 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9376E23525E0298500A8D415 /* LoremSwiftum in Frameworks */,
+				9376E23125E0296F00A8D415 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,8 @@
 		9376E21B25E0294200A8D415 = {
 			isa = PBXGroup;
 			children = (
+				9376E23725E04E1D00A8D415 /* README.md */,
+				9376E23A25E0535700A8D415 /* LICENSE */,
 				9376E22625E0294200A8D415 /* lorem */,
 				9376E22525E0294200A8D415 /* Products */,
 			);
@@ -78,6 +86,10 @@
 			dependencies = (
 			);
 			name = lorem;
+			packageProductDependencies = (
+				9376E23025E0296F00A8D415 /* ArgumentParser */,
+				9376E23425E0298500A8D415 /* LoremSwiftum */,
+			);
 			productName = lorem;
 			productReference = 9376E22425E0294200A8D415 /* lorem */;
 			productType = "com.apple.product-type.tool";
@@ -105,6 +117,10 @@
 				Base,
 			);
 			mainGroup = 9376E21B25E0294200A8D415;
+			packageReferences = (
+				9376E22F25E0296F00A8D415 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				9376E23325E0298500A8D415 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
 			productRefGroup = 9376E22525E0294200A8D415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +301,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9376E22F25E0296F00A8D415 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		9376E23325E0298500A8D415 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9376E23025E0296F00A8D415 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9376E22F25E0296F00A8D415 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		9376E23425E0298500A8D415 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9376E23325E0298500A8D415 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9376E21C25E0294200A8D415 /* Project object */;
 }
