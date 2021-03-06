@@ -6,6 +6,7 @@ import PackageDescription
 let package = Package(
     name: "lorem",
     platforms: [.macOS(.v11)],
+    products: [.executable(name: "lorem", targets: ["lorem"])],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.3.0"),
         .package(url: "https://github.com/lukaskubanek/LoremSwiftum.git", from: "2.2.1"),
