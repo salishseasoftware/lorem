@@ -1,3 +1,9 @@
+[![Release](https://img.shields.io/github/release/salishseasoftware/lorem/all.svg)](https://github.com/salishseasoftware/lorem/releases)
+[![Swift 5.5+](https://img.shields.io/badge/Swift-5.5+-orange.svg)](https://developer.apple.com/swift)
+[![Swift Package Manager](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://swift.org/package-manager)
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
+[![Build & Test](https://github.com/salishseasoftware/lorem/actions/workflows/build+test.yml/badge.svg)](https://github.com/salishseasoftware/lorem/actions/workflows/build+test.yml)
+
 # lorem
 
 A command line lorem impsum generator for Mac OS, because sometimes its just easier to type the command.
@@ -6,9 +12,9 @@ This simply wraps the excellent [LoremSwiftum](https://github.com/lukaskubanek/L
 
 ## Requirements
 
-- Swift 4.0+
-- Xcode 9.2+
-- macOS 10.10+
+- Swift 5.5+
+- Xcode 13.0+
+- macOS 11.0+
 
 ## Installation
 
