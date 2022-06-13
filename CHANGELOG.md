@@ -1,6 +1,14 @@
 # Change Log
 
-## 1.0.0 2022-06-13
+<!-- 
+Add new items at the end of the relevant section under **Unreleased**.
+-->
+
+## [Unreleased]
+
+*No changes yet.*
+
+---
 
 ## [1.0] - 2022-06-13
 
