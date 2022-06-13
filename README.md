@@ -25,9 +25,9 @@ This simply wraps the excellent [LoremSwiftum](https://github.com/lukaskubanek/L
 
 ## Requirements
 
-- Swift 4.0+
-- Xcode 9.2+
-- macOS 10.10+
+- Swift 5.5+
+- Xcode 13.0+
+- macOS 11.0+
 
 ## Installation
 
