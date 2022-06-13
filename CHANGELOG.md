@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.0.0 2022-06-13
+
+## [1.0] - 2022-06-13
+
+### Changes
+
+- Update dependencies.
+
 ## 0.1.2
 
 ### Improvements
@@ -11,7 +19,3 @@
 ## 0.1.1
 
 Initial release
-
-
-
-

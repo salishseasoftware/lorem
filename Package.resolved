@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/salishseasoftware/Stringy.git",
         "state": {
           "branch": null,
-          "revision": "c02083f5074b600614db85007897047ab68b8e54",
-          "version": "0.1.0"
+          "revision": "17254b8e1478f3d3032fbad8abf42f8fa52d148d",
+          "version": "1.0.0"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/apple/swift-argument-parser",
         "state": {
           "branch": null,
-          "revision": "69ddee8c323ed468539e3b05e8c01e3d5a37bf6a",
-          "version": "0.4.0"
+          "revision": "f3c9084a71ef4376f2fabbdf1d3d90a49f1fabdb",
+          "version": "1.1.2"
         }
       }
     ]
