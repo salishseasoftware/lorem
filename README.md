@@ -1,3 +1,22 @@
+<p align="left">
+    <a href="https://github.com/salishseasoftware/lorem/actions/workflows/build+test.yml">
+        <img src="https://github.com/salishseasoftware/lorem/actions/workflows/build+test.yml/badge.svg"  alt="Build &amp; Test>
+    </a>
+    <a href="https://github.com/salishseasoftware/lorem/releases">
+        <img src="https://img.shields.io/github/release/salishseasoftware/lorem/all.svg?style=flat-square">
+    </a>
+    <a href="https://developer.apple.com/swift">
+        <img src="https://img.shields.io/badge/Swift-5.5+-orange.svg?style=flat-square" alt="Swift 4.0+">
+    </a>
+    <a href="https://swift.org/package-manager">
+        <img src="https://img.shields.io/badge/SPM-compatible-brightgreen.svg?style=flat-square" alt="Swift Package Manager">
+    </a>
+    <a href="LICENSE.md">
+        <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" alt="License: MIT">
+    </a>
+</p>
+
+
 # lorem
 
 A command line lorem impsum generator for Mac OS, because sometimes its just easier to type the command.
